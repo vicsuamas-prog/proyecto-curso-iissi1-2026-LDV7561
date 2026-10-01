@@ -1,6 +1,6 @@
 # Centro Sanitario
 
-## Miembros del grupo LX-XXX-X (sustituir)
+## Miembros del grupo LX-XXX-X (sustituir
 
 1. Suárez Masero, Victor
 1. Jiménez Bermúdez, Francisco José
