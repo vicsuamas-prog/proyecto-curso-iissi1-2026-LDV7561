@@ -1,4 +1,4 @@
-# Título Proyecto
+# Centro Sanitario
 
 ## Miembros del grupo LX-XXX-X (sustituir)
 
