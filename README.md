@@ -2,10 +2,10 @@
 
 ## Miembros del grupo LX-XXX-X (sustituir)
 
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
+1. Suárez Masero, Victor
+1. Jiménez Bermúdez, Francisco José
+1. Pérez Olivera, Marcos
+1. Álvarez de la Maya, Rafael
 
 ## 1. Introducción al problema
 
