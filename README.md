@@ -1,4 +1,4 @@
-# Gestión del Grupo Sanitario Privado SanitUS
+# Gestión del Grupo Sanitario Privado <h style="color: #27F5C5; font-weight: bold;"> SanitUS </h>
 
 ## Miembros del grupo L4
 
