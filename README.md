@@ -1,4 +1,4 @@
-# Gestión de un grupo sanitario privado
+# Gestión de un Grupo Sanitario Privado
 
 ## Miembros del grupo L4
 
