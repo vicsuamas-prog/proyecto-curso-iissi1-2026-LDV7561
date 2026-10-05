@@ -1,6 +1,6 @@
 # Gestión de un grupo sanitario privado
 
-## Miembros del grupo LX-XXX-X (sustituir
+## Miembros del grupo L4
 
 1. Suárez Masero, Victor
 1. Jiménez Bermúdez, Francisco José
