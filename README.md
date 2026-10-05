@@ -1,4 +1,4 @@
-# Centro Sanitario
+# Gestión de un grupo sanitario privado
 
 ## Miembros del grupo LX-XXX-X (sustituir
 
