@@ -1,0 +1,6 @@
+Colores Gráficos 
+
+    -Azul Barras: #46bdc6
+    -Azul Secundarios: #7df1ffff
+    -Gris Texto: #73777e
+    -Negros Bordes: #000000 
