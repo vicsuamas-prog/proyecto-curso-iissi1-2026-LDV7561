@@ -8,11 +8,11 @@
 1. Álvarez de la Maya, Rafael
 
 ********************************************************
-![LogoSanitUSHorizontal](./imagenes/LogoSanitUSHorizontal.svg)
-
-| 🏥 Introducción al Problema |
-| :--- |
-| Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su costante crecimiento su actual sistema de gestión se ha quedado obsoleto y lento. SanitUS es un grupo que opera a nivel nacional en España teniendo como centros principales **Hospitales** y **Centros Médicos** de día, en cuanto a su personal los usuarios que usaran la plataforma serían sus **médicos**, sus **enfermeros**, obviamente los **clientes** y el **personal de administración**. |
+> ![LogoSanitUSHorizontal](./imagenes/LogoSanitUSHorizontal.svg)
+>
+> ## 🏥 Introducción al Problema 
+>
+> Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su costante crecimiento su actual sistema de gestión se ha quedado obsoleto y lento. SanitUS es un grupo que opera a nivel nacional en España teniendo como centros principales **Hospitales** y **Centros Médicos** de día, en cuanto a su personal los usuarios que usaran la plataforma serían sus **médicos**, sus **enfermeros**, obviamente los **clientes** y el **personal de administración**. 
 
 ![GraficoCrecimientoClientes](./imagenes/GraficoCrecimientoClientes.svg)
 ![GraficoFallos](./imagenes/GraficoFallos.svg)
