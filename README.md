@@ -9,7 +9,7 @@
 
 <!-- ## 1. Introducción al problema -->
 > [!Note]
-> ### 🏥 Introducción al Problema
+> ### **🏥 Introducción al Problema**
 > Nos han contactado el grupo de hospitales privados SanitUS, debido a su costante crecimiento su actual sistema de gestión se ha quedado obsoleto y lento. SanitUS es un grupo que opera a nivel nacional en España teniendo como centros principales Hospitales y Centros Médicos de día, en cuanto a su personal los usuarios que usaran la plataforma serían sus medicos, sus enfermeros, obviamente los clientes y el personal de administración.
 
 <!-- Nos han contactado de un grupo de gestión sanitaria que debido a su alto crecimiento de demanda la plataforma de gestión que tenían ha quedado obsoleta.
