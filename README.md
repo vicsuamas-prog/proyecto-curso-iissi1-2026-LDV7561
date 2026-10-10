@@ -2,9 +2,9 @@
 
 > 👤​ Miembros del grupo L4 (FJO)
 >
->Suárez Masero, Victor
->Jiménez Bermúdez, Francisco José
->Pérez Olivera, Marcos
+>Suárez Masero, Victor \
+>Jiménez Bermúdez, Francisco José \
+>Pérez Olivera, Marcos \
 >Álvarez de la Maya, Rafael
 
 ********************************************************
