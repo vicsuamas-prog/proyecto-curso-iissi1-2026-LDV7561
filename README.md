@@ -1,12 +1,14 @@
 # Gestión del Grupo Sanitario Privado SanitUS
 
-> 👤​ Miembros del grupo L4 (FJO)
+> ### 👤​ Miembros del grupo L4 (FJO)
 >
 >Suárez Masero, Victor \
 >Jiménez Bermúdez, Francisco José \
 >Pérez Olivera, Marcos \
 >Álvarez de la Maya, Rafael
 
+>[!WARNING] 
+>Para una correcta visualización no abrir el README en un IDE, mirar siempre desde GitHub
 ********************************************************
 ![LogoSanitUSHorizontal](./imagenes/LogoSanitUSHorizontal.svg)
 
