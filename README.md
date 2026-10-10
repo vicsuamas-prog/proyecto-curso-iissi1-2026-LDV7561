@@ -33,7 +33,11 @@ Por ello debemos realizar dicha plataforma para la gestion. Nos han solicitado q
 ## 3. Visión general del sistema
 
 ### 3.1. Requisitos generales
-
+- Gestión de citas: Como administrador del sistema que registra los datos en el centro sanitario,quiero gestionar las citas que le corresponde a cada médico.
+- Gestión de ingresos: Como administrador del sistema que registra los datos en el centro sanitario,quiero gestionar las altas y bajas de los pacientes que son ingresados.
+- Registro de historiales: Como empleado del personal sanitario,quiero poder registrar en mi base de datos cada historial del paciente en mi centro,tanto de citas como de ingresos.
+- Balance de cuentas: Como directivo de la empresa,quiero poder acceder al balance de cuentas,para así tomar mis decisiones en relación al resultado de estas.
+- Interfaz para usuarios: Como paciente y cliente del centro,quiero poder acceder a la lista de citas pendientes,asi como a mi historial médico y que personal es el que me atiende.
 ### 3.2. Usuarios del sistema
 
 ## 4. Catálogo de requisitos
