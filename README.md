@@ -8,8 +8,8 @@
 1. Álvarez de la Maya, Rafael
 
 ********************************************************
-> ![LogoSanitUSHorizontal](./imagenes/LogoSanitUSHorizontal.svg)
->
+![LogoSanitUSHorizontal](./imagenes/LogoSanitUSHorizontal.svg)
+
 > ## 🏥 Introducción al Problema 
 >
 > Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su costante crecimiento su actual sistema de gestión se ha quedado obsoleto y lento. SanitUS es un grupo que opera a nivel nacional en España teniendo como centros principales **Hospitales** y **Centros Médicos** de día, en cuanto a su personal los usuarios que usaran la plataforma serían sus **médicos**, sus **enfermeros**, obviamente los **clientes** y el **personal de administración**. 
@@ -22,8 +22,16 @@
 Por ello debemos realizar dicha plataforma para la gestion. Nos han solicitado que se organice de la siguiente forma: pacientes, que son los usuarios/clientes de la plataforma, en ellos se debe quedar registrado sus datos personales y expediente médico; médicos y enfermeros, que son los trabajadores de la plataforma, y en ellos debe quedar registrado sus datos personales así como su agenda, especialidad y un registro de los trabajos realizados; y por último el personal administrativo, que debe quedar registrado también sus datos personales, y puedan gestionar los expedientes de los clientes/pacientes así como asignarle citas a los médicos/enfermeros. Con respecto a las sedes del grupo de gestión sanitaria, debemos recoger en ellas la ubicación, el tipo de centro que es, ya sea hospital o centro sanitario, y los clientes/pacientes y personal, ya sea administrativo o sanitario, que trabaja en ellos.
  -->
 
-## 2. Glosario de términos
-
+> ## 📖​ Glosario de términos
+>
+> <details>
+> <summary>prueba</summary>
+> esto
+> es
+> para
+> probar
+> como lo renderiza github
+> </details>
 
 - Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
 
