@@ -39,7 +39,11 @@ Por ello debemos realizar dicha plataforma para la gestion. Nos han solicitado q
 - Balance de cuentas: Como directivo de la empresa,quiero poder acceder al balance de cuentas,para así tomar mis decisiones en relación al resultado de estas.
 - Interfaz para usuarios: Como paciente y cliente del centro,quiero poder acceder a la lista de citas pendientes,asi como a mi historial médico y que personal es el que me atiende.
 ### 3.2. Usuarios del sistema
-
+- Médicos: Usuario que podrá acceder a su listado de jornada laboral,a qué pacientes deberá atender (con dia y hora incluidos) así como el/los enfermero/s que le ayudarán en las citas médicas.Su consulta estará en la base de datos del sistema.
+- Enfermeros: Usuario que podrá acceder a qué médico deberá ayudar en las citas (con su horario incluido) y también a sus turnos de vacunación y extracción de sangre.
+- Administrador: Son aquellos usuarios encargados de agendar tanto a los médicos como a los enfermeros en el sistema,todo ello lo harán desde su puesto de trabajo.
+- Pacientes: son la mayoria de usuarios en el sistema, y estos podrán pedir citas para el médico que este elija en el sistema en el día que este elija a la hora establecida por él o el sistema.
+Todos estos usuarios podrán acceder al sistema con sus credenciales (email,contraseña y dni).
 ## 4. Catálogo de requisitos
 
 ### 4.1. Requisitos funcionales
