@@ -13,9 +13,9 @@
 > ## 🏥 Introducción al Problema 
 >
 > Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su costante crecimiento su actual sistema de gestión se ha quedado obsoleto y lento. SanitUS es un grupo que opera a nivel nacional en España teniendo como centros principales **Hospitales** y **Centros Médicos** de día, en cuanto a su personal los usuarios que usaran la plataforma serían sus **médicos**, sus **enfermeros**, obviamente los **clientes** y el **personal de administración**. 
-
-![GraficoCrecimientoClientes](./imagenes/GraficoCrecimientoClientes.svg)
-![GraficoFallos](./imagenes/GraficoFallos.svg)
+>
+> ![GraficoCrecimientoClientes](./imagenes/GraficoCrecimientoClientes.svg)
+> ![GraficoFallos](./imagenes/GraficoFallos.svg)
 
 
 <!-- Nos han contactado de un grupo de gestión sanitaria que debido a su alto crecimiento de demanda la plataforma de gestión que tenían ha quedado obsoleta.
@@ -27,10 +27,10 @@ Por ello debemos realizar dicha plataforma para la gestion. Nos han solicitado q
 > <details>
 > <summary>prueba</summary>
 > esto
-> es
-> para
-> probar
-> como lo renderiza github
+> * es
+> * para
+> * probar
+> * como lo renderiza github
 > </details>
 
 - Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
