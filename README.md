@@ -12,12 +12,12 @@
 ********************************************************
 ![LogoSanitUSHorizontal](./imagenes/LogoSanitUSHorizontal.svg)
 
-> ## 🏥 Introducción al Problema 
->
-> Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su costante crecimiento, su actual sistema de gestión se ha quedado obsoleto y lento. SanitUS es un grupo que opera a nivel nacional en España teniendo como centros principales **Hospitales** y **Centros Médicos** de día, en cuanto a su personal los usuarios que usaran la plataforma serían sus **médicos**, sus **enfermeros**, obviamente los **clientes** y el **personal de administración**. 
->
-> ![GraficoCrecimientoClientes](./imagenes/GraficoCrecimientoClientes.svg)
-> ![GraficoFallos](./imagenes/GraficoFallos.svg)
+## 🏥 Introducción al Problema 
+
+Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su costante crecimiento, su actual sistema de gestión se ha quedado obsoleto y lento. SanitUS es un grupo que opera a nivel nacional en España teniendo como centros principales **Hospitales** y **Centros Médicos** de día, en cuanto a su personal los usuarios que usaran la plataforma serían sus **médicos**, sus **enfermeros**, obviamente los **clientes** y el **personal de administración**. 
+
+ ![GraficoCrecimientoClientes](./imagenes/GraficoCrecimientoClientes.svg)
+ ![GraficoFallos](./imagenes/GraficoFallos.svg)
 
 
 <!-- Nos han contactado de un grupo de gestión sanitaria que debido a su alto crecimiento de demanda la plataforma de gestión que tenían ha quedado obsoleta.
@@ -25,8 +25,6 @@ Por ello debemos realizar dicha plataforma para la gestion. Nos han solicitado q
  -->
 
 ## 📖​ Glosario de términos
-
-
 
 - Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
 
@@ -52,8 +50,9 @@ Por ello debemos realizar dicha plataforma para la gestion. Nos han solicitado q
 <!--Todos estos usuarios podrán acceder al sistema con sus credenciales (email,contraseña y dni).-->
 ## 📜​ Catálogo de requisitos
 
-### 4.1. Requisitos funcionales
+### Requisitos funcionales
 
+<!-- EJEMPLO
 #### R.F.01. Título requisito funcional
 
 Como [tipo de usuario]
@@ -64,11 +63,12 @@ para [razón]
 - Descripción de la primera comprobación a realizar
 - Descripción de la segunda comprobación a realizar
 - Se debe aplicar la regla de negocio R.N.XX.
-- ...
+- ...-->
 
-#### 4.1.1. Requisitos de información
+#### Requisitos de información
 
-##### R.I.01. Título requisito de información
+<!--EJEMPLO
+ ##### R.I.01. Título requisito de información
 
 Como [tipo de usuario]
 quiero [servicio]
@@ -77,7 +77,33 @@ para [razón]
 **Prueba de aceptación**
 - Descripción de la primera comprobación a realizar
 - Descripción de la segunda comprobación a realizar
-- ...
+- ...  
+-->
+
+> #### R.I.01 Información sobre las Citas
+> 
+> Como Administrativo quiero disponer de la siguiente información sobre las citas para organizar la atención de los pacientes:
+> 
+> - Paciente con el que esta enlazado la cita
+> - El día y la hora de la cita  
+> - El Centro Médico u Hospital asignado
+> - El Departamento al que deberá acudir el paciente
+> - El Médico asignado
+> - Enfermero asignado (opcional)
+> - El estado de la cita (Pendiente/Realizada/Cancelada)
+>
+> **Prueba de Aceptación**
+> 
+> - Crear una cita desde el panel de Administrativo.
+> - Comprobar que al registrar una cita el sistema pide todos los datos.
+> - Comprobar que una vez realizada la cita conserva todos sus datos.
+> - Comprobar que la cita se agenda tanto para el personal sanitario como para el paciente.
+> - Comprobar que una vez pasada la cita, esta cambia de Pendiente a Realizada
+> - Comprobar que desde cualquiera de las partes la cita puede cancelarse y esta desaparece de la agenda de ambas partes.
+
+> #### R.I.02 Información sobre los Ingresos
+>
+> Como Administrativo quiero disponer de la siguiente información sobre los ingresos para que el personal sanitario
 
 #### 4.1.2. Reglas de negocio
 
@@ -95,6 +121,7 @@ quiero [servicio]
 para [razón]
 
 -- fin entregable 1 --
+<!--COMENTARIO
 
 ## 5. Modelo conceptual
 
