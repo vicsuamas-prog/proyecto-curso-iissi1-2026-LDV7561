@@ -48,6 +48,7 @@ Por ello debemos realizar dicha plataforma para la gestion. Nos han solicitado q
  | **Administrativo** | Usuarios encargados de agendar las citas e ingresos al personal sanitario y atender administrativamente a los pacientes|
  | **Pacientes** | Cliente del grupo que puede consultar su información y pedir citas (grupo mayoritario)|
 
+[GraficoTipoUsuarios](./imagenes/GraficoTipoUsuarios.svg)
 <!--Todos estos usuarios podrán acceder al sistema con sus credenciales (email,contraseña y dni).-->
 ## 📜​ Catálogo de requisitos
 
