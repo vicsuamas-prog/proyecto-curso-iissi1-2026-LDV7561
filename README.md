@@ -30,21 +30,26 @@ Por ello debemos realizar dicha plataforma para la gestion. Nos han solicitado q
 
 - Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
 
-## 3. Visión general del sistema
+## 👁️​ Visión general del sistema
 
-### 3.1. Requisitos generales
-- Gestión de citas: Como administrador del sistema que registra los datos en el centro sanitario,quiero gestionar las citas que le corresponde a cada médico.
-- Gestión de ingresos: Como administrador del sistema que registra los datos en el centro sanitario,quiero gestionar las altas y bajas de los pacientes que son ingresados.
-- Registro de historiales: Como empleado del personal sanitario,quiero poder registrar en mi base de datos cada historial del paciente en mi centro,tanto de citas como de ingresos.
-- Balance de cuentas: Como directivo de la empresa,quiero poder acceder al balance de cuentas,para así tomar mis decisiones en relación al resultado de estas.
-- Interfaz para usuarios: Como paciente y cliente del centro,quiero poder acceder a la lista de citas pendientes,asi como a mi historial médico y que personal es el que me atiende.
-### 3.2. Usuarios del sistema
-- Médicos: Usuario que podrá acceder a su listado de jornada laboral,a qué pacientes deberá atender (con dia y hora incluidos) así como el/los enfermero/s que le ayudarán en las citas médicas.Su consulta estará en la base de datos del sistema.
-- Enfermeros: Usuario que podrá acceder a qué médico deberá ayudar en las citas (con su horario incluido) y también a sus turnos de vacunación y extracción de sangre.
-- Administrador: Son aquellos usuarios encargados de agendar tanto a los médicos como a los enfermeros en el sistema,todo ello lo harán desde su puesto de trabajo.
-- Pacientes: son la mayoria de usuarios en el sistema, y estos podrán pedir citas para el médico que este elija en el sistema en el día que este elija a la hora establecida por él o el sistema.
-Todos estos usuarios podrán acceder al sistema con sus credenciales (email,contraseña y dni).
-## 4. Catálogo de requisitos
+|**Requisitos generales**| Descripción|
+|:-----------------:|:--|
+| **Gestión de citas** | Como administrativo quiero poder gestionar la agenda del personal sanitario para organizarla y dar cita a los pacientes. |
+| **Solicitar Cita**| Como paciente y cliente, quiero poder pedir cita en cualquiera de los centros del grupo, eligiendo la especialidad y personal.|
+| **Gestión de ingresos medicos** | Como administrativo que registra los datos en el centro sanitario,quiero gestionar las altas y bajas de los pacientes que son ingresados.|
+| **Historial del Paciente** | Como empleado del personal sanitario,quiero poder ver  el historial del paciente, tanto de citas como de ingresos e información relevante.|
+| **Consultar Información** | Como paciente y cliente,quiero poder acceder a la lista de citas pendientes,asi como a mi historial médico y que personal es el que me atiende.|
+
+
+ | **Usuarios del sistema** | Descripción|
+ |:--:|:--|
+ | **Médicos** | Personal Sanitario que atiende a los pacientes en consulta o en habitaciones, apoyandose en enfermeros cuando haga falta. |
+ | **Enfermeros** | Personal Sanitario que se encarga de asistir a los médicos y de realizar pruebas rutinarias (curas,vacunación,extracciones de sangre...)|
+ | **Administrativo** | Usuarios encargados de agendar las citas e ingresos al personal sanitario y atender administrativamente a los pacientes|
+ | **Pacientes** | Cliente del grupo que puede consultar su información y pedir citas (grupo mayoritario)|
+
+<!--Todos estos usuarios podrán acceder al sistema con sus credenciales (email,contraseña y dni).-->
+## 📜​ Catálogo de requisitos
 
 ### 4.1. Requisitos funcionales
 
