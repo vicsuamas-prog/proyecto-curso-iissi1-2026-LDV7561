@@ -177,13 +177,15 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 > - Comprobar que una vez realizada la cita conserva todos sus datos.
 > - Comprobar que la cita se agenda tanto para el personal sanitario como para el paciente.
 > - Comprobar que una vez pasada la cita, esta cambia de Pendiente a Realizada
-> - Comprobar que desde cualquiera de las partes la cita puede cancelarse y esta desaparece de la agenda de ambas partes.
+> - Comprobar que desde cualquiera de las partes la cita puede cancelarse y esta desaparece de la agenda de ambas partes.w
+
 #### R.I.02 Información sobre los Ingresos
 > 
 > Como Administrativo quiero disponer de la siguiente información sobre los ingresos para organizar la atención de los pacientes:
 > 
 > - Paciente que es ingresado
-> - El día y la hora de ingreso  
+> - El día y la hora de ingreso 
+> - Habitacón asignada 
 > - El Centro Médico u Hospital asignado
 > - El Médico asignado
 > - Enfermero asignado (opcional)
@@ -313,10 +315,6 @@ Como Administrativo
 quiero poder modificar las citas de un paciente
 para que los usuarios que tengan incidencias puedan ser atendidos. 
 
-**R.N.F. 02. Requisito No Funcional de e**
-Como Administrativo
-quiero poder modificar las citas de un paciente
-para que los usuarios que tengan incidencias puedan ser atendidos. 
 -- fin entregable 1 --
 
 <!--COMENTARIO
@@ -379,6 +377,10 @@ para que los usuarios que tengan incidencias puedan ser atendidos.
 Se consideran todo tipo de constraints declarativas (aquellas definidas durante el CREATE TABLE).
 -- fin entregable 3 --
 
+-->
 ## Referencias
+
+- Logos realizados desde la herramienta Canva con el Pro que incluye la Universidad de Sevilla
+- Gráficos hecho a partir de tablas en Hojas de Cálculo de Google
 
 
