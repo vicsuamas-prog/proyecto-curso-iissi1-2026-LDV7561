@@ -308,6 +308,8 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 
 ### 4.2. Mapa de historias de usuario (opcional)
 
+--En Proceso--
+
 ### 4.3. Requisitos no funcionales (opcional)
 
 **R.N.F. 01. Requisito No Funcional de Administrativo**
