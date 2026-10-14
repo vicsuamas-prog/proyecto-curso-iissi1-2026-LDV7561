@@ -20,10 +20,6 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
  ![GraficoFallos](./imagenes/GraficoFallos.svg)
 
 
-<!-- Nos han contactado de un grupo de gestión sanitaria que debido a su alto crecimiento de demanda la plataforma de gestión que tenían ha quedado obsoleta.
-Por ello debemos realizar dicha plataforma para la gestion. Nos han solicitado que se organice de la siguiente forma: pacientes, que son los usuarios/clientes de la plataforma, en ellos se debe quedar registrado sus datos personales y expediente médico; médicos y enfermeros, que son los trabajadores de la plataforma, y en ellos debe quedar registrado sus datos personales así como su agenda, especialidad y un registro de los trabajos realizados; y por último el personal administrativo, que debe quedar registrado también sus datos personales, y puedan gestionar los expedientes de los clientes/pacientes así como asignarle citas a los médicos/enfermeros. Con respecto a las sedes del grupo de gestión sanitaria, debemos recoger en ellas la ubicación, el tipo de centro que es, ya sea hospital o centro sanitario, y los clientes/pacientes y personal, ya sea administrativo o sanitario, que trabaja en ellos.
- -->
-
 ## 📖​ Glosario de términos
 
 - Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
@@ -32,11 +28,11 @@ Por ello debemos realizar dicha plataforma para la gestion. Nos han solicitado q
 
 |**Requisitos generales**| Descripción|
 |:-----------------:|:--|
-| **Gestión de citas** | Como administrativo quiero poder gestionar la agenda del personal sanitario para organizarla y dar cita a los pacientes. |
-| **Solicitar Cita**| Como paciente y cliente, quiero poder pedir cita en cualquiera de los centros del grupo, eligiendo la especialidad y personal.|
-| **Gestión de ingresos medicos** | Como administrativo que registra los datos en el centro sanitario,quiero gestionar las altas y bajas de los pacientes que son ingresados.|
-| **Historial del Paciente** | Como empleado del personal sanitario,quiero poder ver  el historial del paciente, tanto de citas como de ingresos e información relevante.|
-| **Consultar Información** | Como paciente y cliente,quiero poder acceder a la lista de citas pendientes,asi como a mi historial médico y que personal es el que me atiende.|
+| **Gestión de citas** |El sistema debe de permitir  gestionar la agenda del personal sanitario para organizarla y dar cita a los pacientes. |
+| **Solicitar Cita**| La plataforma tiene que dar la posibilidad a los clientes pedir sus citas eligiendo su personal sanitario, fecha, lugar...|
+| **Gestión de ingresos médicos** | El sistema tiene que implementar una función que permita el seguimiento de los ingresos y las altas de los pacientes.|
+| **Historial del Paciente** | El sistema debe guardar y mostrar al personal sanitario el historial de cada cliente (citas, ingresos, informacion relevante...)|
+| **Consultar Información** | La plataforma debe poder prestar su informacion a cada paciente así como sus citas pendientes y el personal sanitario que le atiende. |
 
 
  | **Usuarios del sistema** | Descripción|
@@ -121,6 +117,7 @@ quiero [servicio]
 para [razón]
 
 -- fin entregable 1 --
+
 <!--COMENTARIO
 
 ## 5. Modelo conceptual
