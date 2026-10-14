@@ -45,9 +45,9 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 <!--Todos estos usuarios podrán acceder al sistema con sus credenciales (email,contraseña y dni).-->
 ## 📜​ Catálogo de requisitos
 
-### Requisitos funcionales
+### ⚒️ Requisitos funcionales
 
->#### R.F.01. Acceso a Historiales Médicos
+#### R.F.01. Acceso a Historiales Médicos
 >
 >Como Médico \
 >quiero poder buscar, acceder y añadir al historial médico de un paciente\
@@ -58,7 +58,7 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 >- Teniendo algún historial en el sistema poder probar desde la interfaz del médico si puede editar y acceder a los mismos.
 >- Se debe aplicar la regla de negocio R.N.XX. 
 
->#### R.F.02. Solicitud de Pruebas a Enfermería
+#### R.F.02. Solicitud de Pruebas a Enfermería
 >
 >Como Médico \
 >quiero poder solicitar que un enfermero realice una prueba a un determinado paciente \
@@ -69,7 +69,7 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 >- Comprobar que cuando una prueba se actualiza en enfermería, el médico pueda acceder a los resultados.
 >- Se debe aplicar la regla de negocio R.N.XX.
  
->#### R.F.03. Vista del Cliente
+#### R.F.03. Vista del Cliente
 >
 >Como Paciente \
 >quiero poder acceder a mi lista de citas \
@@ -81,7 +81,7 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 >- Se debe aplicar la regla de negocio R.N.XX.
 
 
->#### R.F.04. Acceso a Informes desde el lado Cliente
+#### R.F.04. Acceso a Informes desde el lado Cliente
 >
 >Como Paciente \
 >quiero poder acceder a mi información \
@@ -92,7 +92,7 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 >- Probar desde la interfaz del paciente que en dicho historial aparezcan las últimas citas agendadas, así como los últimos cambios del mismo.
 >- Se debe aplicar la regla de negocio R.N.XX.
 
->#### R.F.05. Modificación de Fichas Personales
+#### R.F.05. Modificación de Fichas Personales
 >
 >Como Administrativo \
 >quiero poder editar las fichas de datos personales de todos los usuarios \
@@ -103,7 +103,7 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 >- Probar desde la interfaz del paciente que en dicho historial aparezcan las últimas citas agendadas, así como los últimos cambios del mismo.
 >- Se debe aplicar la regla de negocio R.N.XX.
 
->#### R.F.06. Registro de Nuevos Usuarios
+#### R.F.06. Registro de Nuevos Usuarios
 >
 >Como Administrativo \
 >quiero poder registrar nuevos usuarios\
@@ -113,7 +113,7 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 >- Probar desde la interfaz del administrativo que se crea un nuevo perfil de usuario según el rol asignado
 >- Se debe aplicar la regla de negocio R.N.XX.
 
->#### R.F.07. Agenda para Enfermeros
+#### R.F.07. Agenda para Enfermeros
 >
 >Como Enfermero \
 >quiero poder ver la agenda \
@@ -124,7 +124,7 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 >- Probar desde la interfaz del enfermero que no se solapen tareas en la misma franja horaria
 >- Se debe aplicar la regla de negocio R.N.XX.
 
->#### R.F.07. Agenda para Médicos
+#### R.F.08. Agenda para Médicos
 >
 >Como Mé2dico \
 >quiero poder ver la agenda \
@@ -136,7 +136,7 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 >- Se debe aplicar la regla de negocio R.N.XX.
 
 
-#### Requisitos de información
+#### ℹ️​ Requisitos de información
 
 <!--EJEMPLO
  ##### R.I.01. Título requisito de información
@@ -151,7 +151,7 @@ para [razón]
 - ...  
 -->
 
-> #### R.I.01 Información sobre las Citas
+#### R.I.01 Información sobre las Citas
 > 
 > Como Administrativo quiero disponer de la siguiente información sobre las citas para organizar la atención de los pacientes:
 > 
