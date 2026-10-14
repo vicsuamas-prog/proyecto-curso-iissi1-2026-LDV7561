@@ -47,75 +47,93 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 
 ### Requisitos funcionales
 
-#### R.F.01. Requisito Funcional 1 de Médico
-Como Médico
-quiero poder buscar, acceder y añadir al historial médico de un paciente
-para poder diagnosticar y tener conocimiento del historial previo del paciente
+>#### R.F.01. Acceso a Historiales Médicos
+>
+>Como Médico \
+>quiero poder buscar, acceder y añadir al historial médico de un paciente\
+>para poder diagnosticar y tener conocimiento del historial previo del paciente
+>
+>**Prueba de aceptación**
+>- Teniendo algún historial en el sistema poder probar desde la interfaz del médico si puede buscar los historiales.
+>- Teniendo algún historial en el sistema poder probar desde la interfaz del médico si puede editar y acceder a los mismos.
+>- Se debe aplicar la regla de negocio R.N.XX. 
 
-**Prueba de aceptación**
-- Teniendo algún historial en el sistema poder probar desde la interfaz del médico si puede buscar los historiales.
-- Teniendo algún historial en el sistema poder probar desde la interfaz del médico si puede editar y acceder a los mismos.
-- Se debe aplicar la regla de negocio R.N.XX. 
-
-#### R.F.02. Requisito Funcional 2 de Médico
-Como Médico
-quiero poder solicitar que un enfermero realice una prueba a un determinado paciente
-para poder diagnosticar enfermedades y realizar un seguimiento del paciente.
-
-**Prueba de aceptación**
-- Mandar una prueba desde el interfaz del médico y que aparezca en el listado de pruebas rutinarias de enfermería.
-- Comprobar que cuando una prueba se actualiza en enfermería, el médico pueda acceder a los resultados.
-- Se debe aplicar la regla de negocio R.N.XX.
-- 
-#### R.F.03. Requisito Funcional 1 de Paciente
-Como Paciente
-quiero poder acceder a mi lista de citas
-para poder solicitar, cancelar y consultar las citas médicas que tenga asociadas a mi usuario
-
-**Prueba de aceptación**
-- Probar a cancelar una cita, que cambie de estado y desaparezca de la agenda del médico y del paciente
-- Probar a agendar una cita, que permita elegir la fecha y el médico, y aparezca en la agenda del médico y del paciente
-- Se debe aplicar la regla de negocio R.N.XX.
+>#### R.F.02. Solicitud de Pruebas a Enfermería
+>
+>Como Médico \
+>quiero poder solicitar que un enfermero realice una prueba a un determinado paciente \
+>para poder diagnosticar enfermedades y realizar un seguimiento del paciente.
+>
+>**Prueba de aceptación**
+>- Mandar una prueba desde el interfaz del médico y que aparezca en el listado de pruebas rutinarias de enfermería.
+>- Comprobar que cuando una prueba se actualiza en enfermería, el médico pueda acceder a los resultados.
+>- Se debe aplicar la regla de negocio R.N.XX.
+ 
+>#### R.F.03. Vista del Cliente
+>
+>Como Paciente \
+>quiero poder acceder a mi lista de citas \
+>para poder solicitar, cancelar y consultar las citas médicas que tenga asociadas a mi usuario
+>
+>**Prueba de aceptación**
+>- Probar a cancelar una cita, que cambie de estado y desaparezca de la agenda del médico y del paciente
+>- Probar a agendar una cita, que permita elegir la fecha y el médico, y aparezca en la agenda del médico y del paciente
+>- Se debe aplicar la regla de negocio R.N.XX.
 
 
-#### R.F.04. Requisito Funcional 2 de Paciente
-Como Paciente
-quiero poder acceder a mi información
-para poder consultar toda la información y el historial médico asignado a mi usuario.
+>#### R.F.04. Acceso a Informes desde el lado Cliente
+>
+>Como Paciente \
+>quiero poder acceder a mi información \
+>para poder consultar toda la información y el historial médico asignado a mi usuario.
+>
+>**Prueba de aceptación**
+>- Probar desde la interfaz del paciente a acceder al historial médico.
+>- Probar desde la interfaz del paciente que en dicho historial aparezcan las últimas citas agendadas, así como los últimos cambios del mismo.
+>- Se debe aplicar la regla de negocio R.N.XX.
 
-**Prueba de aceptación**
-- Probar desde la interfaz del paciente a acceder al historial médico.
-- Probar desde la interfaz del paciente que en dicho historial aparezcan las últimas citas agendadas, así como los últimos cambios del mismo.
-- Se debe aplicar la regla de negocio R.N.XX.
+>#### R.F.05. Modificación de Fichas Personales
+>
+>Como Administrativo \
+>quiero poder editar las fichas de datos personales de todos los usuarios \
+>para poder mantener actualizada la base de datos.
+>
+>**Prueba de aceptación**
+>- Probar desde la interfaz del paciente a acceder al historial médico.
+>- Probar desde la interfaz del paciente que en dicho historial aparezcan las últimas citas agendadas, así como los últimos cambios del mismo.
+>- Se debe aplicar la regla de negocio R.N.XX.
 
-#### R.F.05. Requisito Funcional de Administrativo
-Como Administrativo
-quiero poder editar las fichas de datos personales de todos los usuarios
-para poder mantener actualizada la base de datos.
+>#### R.F.06. Registro de Nuevos Usuarios
+>
+>Como Administrativo \
+>quiero poder registrar nuevos usuarios\
+>para poder dar de alta a pacientes, médicos o enfermeros.
+>
+>**Prueba de aceptación**
+>- Probar desde la interfaz del administrativo que se crea un nuevo perfil de usuario según el rol asignado
+>- Se debe aplicar la regla de negocio R.N.XX.
 
-**Prueba de aceptación**
-- Probar desde la interfaz del paciente a acceder al historial médico.
-- Probar desde la interfaz del paciente que en dicho historial aparezcan las últimas citas agendadas, así como los últimos cambios del mismo.
-- Se debe aplicar la regla de negocio R.N.XX.
+>#### R.F.07. Agenda para Enfermeros
+>
+>Como Enfermero \
+>quiero poder ver la agenda \
+>para poder tener conocimiento de cuando debo acudir con un médico asignado o realizar mis tareas en el ala de enfermería.
+>
+>**Prueba de aceptación**
+>- Probar desde la interfaz del enfermero que salga la agenda
+>- Probar desde la interfaz del enfermero que no se solapen tareas en la misma franja horaria
+>- Se debe aplicar la regla de negocio R.N.XX.
 
-#### R.F.06. Requisito Funcional de Administrativo
-Como Administrativo
-quiero poder registrar nuevos usuarios
-para poder dar de alta a pacientes, médicos o enfermeros.
-
-**Prueba de aceptación**
-- Probar desde la interfaz del administrativo que se crea un nuevo perfil de usuario según el rol asignado
-- Se debe aplicar la regla de negocio R.N.XX.
-
-#### R.F.07. Requisito Funcional de Enfermero
-Como Enfermero
-quiero poder ver la agenda 
-para poder tener conocimiento de cuando debo acudir con un médico asignado o realizar mis tareas en el ala de enfermería.
-
-**Prueba de aceptación**
-- Probar desde la interfaz del enfermero que salga la agenda
-- Probar desde la interfaz del enfermero que no se solapen tareas en la misma franja horaria
-- Se debe aplicar la regla de negocio R.N.XX.
+>#### R.F.07. Agenda para Médicos
+>
+>Como Mé2dico \
+>quiero poder ver la agenda \
+>para poder tener conocimiento de los pacientes que tengo que atender día a día.
+>
+>**Prueba de aceptación**
+>- Probar desde la interfaz del médico que salga la agenda
+>- Probar desde la interfaz del médico que no se solapen las citas / visitas a ingresos en una misma franja horaria.
+>- Se debe aplicar la regla de negocio R.N.XX.
 
 
 #### Requisitos de información
