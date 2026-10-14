@@ -126,13 +126,33 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 
 #### R.F.08. Agenda para Médicos
 >
->Como Mé2dico \
+>Como Médico \
 >quiero poder ver la agenda \
 >para poder tener conocimiento de los pacientes que tengo que atender día a día.
 >
 >**Prueba de aceptación**
 >- Probar desde la interfaz del médico que salga la agenda
 >- Probar desde la interfaz del médico que no se solapen las citas / visitas a ingresos en una misma franja horaria.
+>- Se debe aplicar la regla de negocio R.N.XX.
+
+#### R.F.09. Recordatorio de Agenda
+>
+>Como Administrativo \
+>quiero que les llegue un recordatorio a los pacientes con 24 horas de antelación \
+>para poder evitar que no acudan a las citas por descuidos.
+>
+>**Prueba de aceptación**
+>- Probar desde la interfaz del paciente que llegue el recordatorio
+>- Se debe aplicar la regla de negocio R.N.XX.
+
+#### R.F.10. Disponibilidad 24/7
+>
+>Como Dueño de la empresa \
+>quiero que la plataforma esté activa 24/7 \
+>para poder trabajar y ofrecer nuestros servicios en cualquier momento.
+>
+>**Prueba de aceptación**
+>- Probar que el servidor esté activo en todo momento y soporte una gran carga de solicitudes.
 >- Se debe aplicar la regla de negocio R.N.XX.
 
 
@@ -287,6 +307,10 @@ Como Administrativo
 quiero poder modificar las citas de un paciente
 para que los usuarios que tengan incidencias puedan ser atendidos. 
 
+**R.N.F. 02. Requisito No Funcional de e**
+Como Administrativo
+quiero poder modificar las citas de un paciente
+para que los usuarios que tengan incidencias puedan ser atendidos. 
 -- fin entregable 1 --
 
 <!--COMENTARIO
