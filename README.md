@@ -138,19 +138,6 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 
 #### ℹ️​ Requisitos de información
 
-<!--EJEMPLO
- ##### R.I.01. Título requisito de información
-
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
-
-**Prueba de aceptación**
-- Descripción de la primera comprobación a realizar
-- Descripción de la segunda comprobación a realizar
-- ...  
--->
-
 #### R.I.01 Información sobre las Citas
 > 
 > Como Administrativo quiero disponer de la siguiente información sobre las citas para organizar la atención de los pacientes:
@@ -171,10 +158,119 @@ para [razón]
 > - Comprobar que la cita se agenda tanto para el personal sanitario como para el paciente.
 > - Comprobar que una vez pasada la cita, esta cambia de Pendiente a Realizada
 > - Comprobar que desde cualquiera de las partes la cita puede cancelarse y esta desaparece de la agenda de ambas partes.
-
-> #### R.I.02 Información sobre los Ingresos
+#### R.I.02 Información sobre los Ingresos
+> 
+> Como Administrativo quiero disponer de la siguiente información sobre los ingresos para organizar la atención de los pacientes:
+> 
+> - Paciente que es ingresado
+> - El día y la hora de ingreso  
+> - El Centro Médico u Hospital asignado
+> - El Médico asignado
+> - Enfermero asignado (opcional)
+> - El día y la hora de alta
+> - Observaciones
 >
-> Como Administrativo quiero disponer de la siguiente información sobre los ingresos para que el personal sanitario
+> **Prueba de Aceptación**
+> 
+> - Crear un ingreso desde el panel de Administrativo.
+> - Comprobar que al registrar un ingreso el sistema pide todos los datos.
+> - Comprobar que una vez finalizado el ingreso se asigne el dia y hora de alta.
+> - Comprobar que un medico puede poner observaciones durante el ingreso
+> - Comprobar que las fechas sean válidas
+
+
+
+
+#### R.I.03 Información Administrativa sobre los Pacientes
+> 
+> Como Administrativo quiero que el sistema me informe sobre los siguientes atributos del paciente
+> 
+> - Nombre y Apellidos
+> - Documento Nacional de Identidad, NIE o Pasaporte
+> - Domicilio
+> - Email
+> - Contraseña
+> - Fecha de nacimiento
+> - Fecha de defunción
+> - Compañia de Seguro
+> - Numero de Poliza
+>
+> **Prueba de Aceptación**
+> 
+> - Comprobar que cuando acceda al sistema se pueden observar todos sus datos
+
+
+#### R.I.04 Información Médica sobre los Pacientes
+> 
+> Como Médico quiero que el sistema albergue los siguientes atributos del paciente
+> 
+> - Peso
+> - Estatura  
+> - Género
+> - Alergias
+> - Enfermedades diagnosticadas
+> - Pruebas realizadas
+> - Grupo Sanguineo
+>
+>
+> **Prueba de Aceptación**
+> 
+> - Comprobar que cuando acceda al sistema se pueden observar todos sus datos
+
+
+#### R.I.05 Información sobre los Médicos
+> 
+> Como dueño de la empresa quiero que el sistema albergue los siguientes atributos de los médicos
+> 
+> - Nombre y Apellidos
+> - Documento Nacional de Identidad, NIE o Pasaporte
+> - Domicilio
+> - Email
+> - Contraseña
+> - Fecha de nacimiento
+> - Cuenta bancaria
+> - Numero de colegiado
+> - Departamento
+>
+>
+> **Prueba de Aceptación**
+> 
+> - Comprobar que cuando acceda al sistema se pueden observar todos sus datos
+
+#### R.I.06 Información sobre los Enfermeros
+> 
+> Como dueño de la empresa quiero que el sistema albergue los siguientes atributos de los enfermeros
+> 
+> - Nombre y Apellidos
+> - Documento Nacional de Identidad, NIE o Pasaporte
+> - Domicilio
+> - Email
+> - Contraseña
+> - Fecha de nacimiento
+> - Cuenta bancaria
+> - Numero de colegiado del enfermero
+>
+> **Prueba de Aceptación**
+> 
+> - Comprobar que cuando acceda al sistema se pueden observar todos sus datos
+
+#### R.I.07 Información sobre los Administrativos
+> 
+> Como Médico quiero que el sistema albergue los siguientes atributos del paciente
+> 
+> - Nombre y Apellidos
+> - Documento Nacional de Identidad, NIE o Pasaporte
+> - Domicilio
+> - Email
+> - Contraseña
+> - Fecha de nacimiento
+> - Cuenta bancaria
+>
+>
+> **Prueba de Aceptación**
+> 
+> - Comprobar que cuando acceda al sistema se pueden observar todos sus datos
+
 
 #### 4.1.2. Reglas de negocio
 
@@ -190,11 +286,6 @@ Descripción de la regla de negocio.
 Como Administrativo
 quiero poder modificar las citas de un paciente
 para que los usuarios que tengan incidencias puedan ser atendidos. 
-
-**R.N.F. 01. Título requisito no funcional**
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
 
 -- fin entregable 1 --
 
