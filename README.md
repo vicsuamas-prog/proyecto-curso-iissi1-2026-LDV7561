@@ -28,10 +28,9 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 
 |**Requisitos generales**| Descripción|
 |:-----------------:|:--|
-| **Gestión de citas** |El sistema debe de permitir  gestionar la agenda del personal sanitario para organizarla y dar cita a los pacientes. |
-| **Solicitar Cita**| La plataforma tiene que dar la posibilidad a los clientes pedir sus citas eligiendo su personal sanitario, fecha, lugar...|
+| **Gestión de Citas y Agenda** |El sistema debe de permitir  gestionar la agenda del personal sanitario para organizarla y dar cita a los pacientes.A su vez estos deben de tener la posibilidad de solicitar una cita eligiendo personal,fecha... |
 | **Gestión de ingresos médicos** | El sistema tiene que implementar una función que permita el seguimiento de los ingresos y las altas de los pacientes.|
-| **Historial del Paciente** | El sistema debe guardar y mostrar al personal sanitario el historial de cada cliente (citas, ingresos, informacion relevante...)|
+| **Gestión de Historiales** | El sistema debe guardar y mostrar al personal sanitario el historial de cada cliente (citas, ingresos, informacion relevante...)|
 | **Consultar Información** | La plataforma debe poder prestar su informacion a cada paciente así como sus citas pendientes y el personal sanitario que le atiende. |
 
 
