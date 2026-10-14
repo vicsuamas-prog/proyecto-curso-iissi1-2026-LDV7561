@@ -294,16 +294,16 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 > - Comprobar que cuando acceda al sistema se pueden observar todos sus datos
 
 
-#### 4.1.2. Reglas de negocio
+#### ​​💰​ Reglas de negocio
 
 ##### R.N.01. Eliminación periódica de historiales antiguos
-Si un paciente fallece, que el historial se borre después de 2 años debido a políticas de la empresa
+>Si un paciente fallece, que el historial se borre después de 2 años debido a políticas de la empresa
 
 ##### R.N.02. Número máximo de citas por paciente
-Solo está permitido que un paciente pueda tener como máximo tres citas agendadas en su perfil.
+>Solo está permitido que un paciente pueda tener como máximo tres citas agendadas en su perfil.
 
 ##### R.N.03. Periodo máximo de asignación de cita
-Máximo de un periodo de 3 meses de antelación para una cita asignada por parte de un cliente
+>Máximo de un periodo de 3 meses de antelación para una cita asignada por parte de un cliente
 
 
 ### 4.2. Mapa de historias de usuario (opcional)
