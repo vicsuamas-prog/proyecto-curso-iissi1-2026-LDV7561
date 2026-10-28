@@ -319,7 +319,6 @@ para que los usuarios que tengan incidencias puedan ser atendidos.
 
 -- fin entregable 1 --
 
-<!--COMENTARIO
 
 ## 5. Modelo conceptual
 
@@ -346,7 +345,7 @@ para que los usuarios que tengan incidencias puedan ser atendidos.
 | ...   |            |            |            |            |
 
 -- fin entregable 2 --
-
+<!--COMENTARIO
 ## 7. Modelo relacional en 3FN
 
 - Relaciones obtenidas al aplicar la transformación del modelo conceptual.
