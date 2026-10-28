@@ -38,7 +38,7 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
  |:--:|:--|
  | **Médicos** | Personal Sanitario que atiende a los pacientes en consulta o en habitaciones, apoyandose en enfermeros cuando haga falta. |
  | **Enfermeros** | Personal Sanitario que se encarga de asistir a los médicos y de realizar pruebas rutinarias (curas,vacunación,extracciones de sangre...)|
- | **Administrativo** | Usuarios encargados de agendar las citas e ingresos al personal sanitario y atender administrativamente a los pacientes|
+ | **Administrativo** | Usuarios encargados de agendar las citas e ingresos al personal sanitario y atender tareas administrativas|
  | **Pacientes** | Cliente del grupo que puede consultar su información y pedir citas (grupo mayoritario)|
 
 ![GraficoTipoUsuarios](./imagenes/GraficoTipoUsuarios.svg)
