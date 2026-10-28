@@ -1,0 +1,104 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+
+class Centro <<entity>> {
+  + Nombre
+  + Localidad
+  + Provincia
+}
+
+class Usuario <<entity>> {
+  + Nombre
+  + Apellidos
+  + DNI
+  + Domicilio
+  + email
+  + contraseña
+  + fechaNacimiento
+  + cuentaBancaria
+}
+
+class Medico <<entity>> {
+  + NumeroColegiado
+  + Departamento
+}
+
+
+class Enfermero <<entity>> {
+  + NumeroColegiado
+}
+
+class Administrativos <<entity>> {
+}
+
+class Paciente <<entity>> {
+  + FechaDefunción
+  + CompañiaSeguro
+  + NumeroPoliza
+}
+
+class Historial <<entity>> {
+  + Peso
+  + Estatura
+  + Género
+  + Alergias
+  + EnfermedadesDiagnosticadas
+  + PruebasRealizadas
+  + GrupoSanguineo
+}
+
+class TipoAtencionMedica <<entity>> {
+  + FechaHora
+  + NumeroHabitacion
+}
+
+class Cita <<entity>> {
+  + Departamento
+  + EstadoCita: EstadoCita
+}
+
+
+class Ingreso <<entity>> {
+  + DiaHoraAlta
+  + Observacion
+}
+
+
+'Relaciones
+
+Usuario ^-- Medico
+Usuario ^-- Paciente
+Usuario ^-- Enfermero
+Usuario ^-- Administrativos
+
+TipoAtencionMedica ^-- Cita
+TipoAtencionMedica ^-- Ingreso
+
+enum EstadoCita <<enum>> {
+  + Pendiente
+  + Realizada
+  + Cancelada
+}
+
+
+Medico "*" -- "*" Paciente : EsAtendido
+
+
+(Medico, Paciente) .. Historial
+(Medico, Paciente) .. TipoAtencionMedica
+
+Enfermero "0..*" -- "*" Medico : Apoya
+Administrativos "*" -- "*" Enfermero : Administra
+Administrativos "*" -- "*" Medico : Administra
+Administrativos "*" -- "*" Paciente : Administra
+
+
+Administrativos "*" -- "*" TipoAtencionMedica : Administra
+Centro "*" -- "*" TipoAtencionMedica : SeRealizaEn
+
+
+
+Usuario "*" -- "*" Centro : PerteneceA
+
+@enduml
