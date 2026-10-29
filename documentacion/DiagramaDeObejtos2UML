@@ -1,0 +1,102 @@
+@startuml
+
+
+object "Médico" as medico {
+    Nombre = Manuel 
+    Apellidos = González López
+    DNI = 51284251H
+    Domicilio = C/ Poeta Abad 12
+    Email = manuelg.lopez@gmail.com
+    Contraseña = test.123A
+    Fecha Nacimiento = 12/05/1975
+    Cuenta Bancario = ES102928372829
+    NumeroColegiado = ME9787
+    Departamento = Medicina General    
+}
+
+
+object "Administrativo" as administrativo {
+    Nombre = Carmen
+    Apellidos = Navarro Gómez
+    DNI = 73920145L
+    Domicilio = C/ San Fernando 8, 1ºA
+    Email = carmen.navarro.admin@gmail.com
+    Contraseña = Admin2026.*
+    Fecha Nacimiento = 03/11/1982
+    Cuenta Bancaria = ES4521000418451234567890
+}
+
+object "Paciente" as paciente {
+    Nombre = Carmen
+    Apellidos = Navarro Gómez
+    DNI = 73920145L
+    Domicilio = C/ San Fernando 8, 1ºA
+    Email = carmen.navarro.admin@gmail.com
+    Contraseña = Admin2026.*
+    Fecha Nacimiento = 03/11/1982
+    FechaDefunción = null
+    CompañiaSeguro = Sanitas
+    NumeroPoliza = POL-98234105
+    GrupoSanguineo = A+
+    Peso = 65 kg
+    Estatura = 1.68 m
+    Género = Femenino
+    Alergias = Penicilina
+}
+
+
+object "Centro" as centro {
+    Nombre = Hospital General SaludUS
+    Localidad = Sevilla
+    Provincia = Sevilla
+}
+
+
+object "Cita" as cita1 {
+    Fecha = 15/11/2026
+    Hora = 10:30
+    Departamento = Cardiología
+    EstadoCita = Pendiente
+}
+
+object "Ingreso" as ingreso1 {
+    Fecha = 02/11/2026
+    Hora = 08:00
+    DiaHoraAlta = 05/11/2026 12:00
+    Observacion = Paciente en observación tras intervención quirúrgica.
+}
+
+object "EnfermedadesDiagnosticadas" as enfermedad1 {
+    NombreEnfermedad = Diabetes Mellitus Tipo 2
+}
+
+object "PruebasRealizadas" as prueba1 {
+    Nombre = Analítica de Sangre Completa
+    FechaHora = 28/10/2026 09:15
+}
+
+
+
+medico "*" -- "*" paciente : EsAtendido
+
+
+
+administrativo "*" -- "*" medico : Administra
+administrativo "*" -- "*" paciente : Administra
+
+paciente *-- enfermedad1
+paciente *-- prueba1
+
+
+administrativo "*" -- "*" cita1 : Administra
+administrativo "*" -- "*" ingreso1 : Administra
+
+centro "*" -- "*" cita1 : SeRealizaEn
+centro "*" -- "*" ingreso1 : SeRealizaEn
+
+administrativo "*" -- "*" centro : PerteneceA
+medico "*" -- "*" centro : PerteneceA
+paciente "*" -- "*" centro : PerteneceA
+
+
+@enduml
