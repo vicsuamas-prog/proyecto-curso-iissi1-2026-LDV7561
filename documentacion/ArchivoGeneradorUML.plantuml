@@ -24,6 +24,17 @@ class Medico <<entity>> {
   + Departamento
 }
 
+class Agenda <<entity>> {
+  + FechaHora
+  + NumeroHabitacion
+}
+
+enum EstadoCita <<enum>> {
+  + Pendiente
+  + Realizada
+  + Cancelada
+}
+
 
 class Enfermero <<entity>> {
   + NumeroColegiado
@@ -36,22 +47,14 @@ class Paciente <<entity>> {
   + FechaDefunción
   + CompañiaSeguro
   + NumeroPoliza
-}
-
-class Historial <<entity>> {
+  + GrupoSanguineo
   + Peso
   + Estatura
   + Género
   + Alergias
-  + EnfermedadesDiagnosticadas
-  + PruebasRealizadas
-  + GrupoSanguineo
 }
 
-class TipoAtencionMedica <<entity>> {
-  + FechaHora
-  + NumeroHabitacion
-}
+
 
 class Cita <<entity>> {
   + Departamento
@@ -64,6 +67,15 @@ class Ingreso <<entity>> {
   + Observacion
 }
 
+class EnfermedadesDiagnosticadas <<entity>> {
+  + NombreEnfermedad
+}
+
+class PruebasRealizadas <<entity>> {
+  + Nombre
+  + FechaHora 
+}
+
 
 'Relaciones
 
@@ -72,33 +84,48 @@ Usuario ^-- Paciente
 Usuario ^-- Enfermero
 Usuario ^-- Administrativos
 
-TipoAtencionMedica ^-- Cita
-TipoAtencionMedica ^-- Ingreso
+Agenda ^-- Cita
+Agenda ^-- Ingreso
 
-enum EstadoCita <<enum>> {
-  + Pendiente
-  + Realizada
-  + Cancelada
-}
 
 
 Medico "*" -- "*" Paciente : EsAtendido
 
 
-(Medico, Paciente) .. Historial
-(Medico, Paciente) .. TipoAtencionMedica
 
 Enfermero "0..*" -- "*" Medico : Apoya
 Administrativos "*" -- "*" Enfermero : Administra
 Administrativos "*" -- "*" Medico : Administra
 Administrativos "*" -- "*" Paciente : Administra
 
+Paciente *-- EnfermedadesDiagnosticadas
+Paciente *-- PruebasRealizadas
+(Medico, Paciente) .. Agenda
 
-Administrativos "*" -- "*" TipoAtencionMedica : Administra
-Centro "*" -- "*" TipoAtencionMedica : SeRealizaEn
+
+Administrativos "*" -- "*" Agenda : Administra
+Centro "*" -- "*" Agenda : SeRealizaEn
 
 
 
 Usuario "*" -- "*" Centro : PerteneceA
+
+note top of Agenda
+  RN2: Solo está permitido que un paciente 
+  pueda tener como máximo tres citas 
+  agendadas en su perfil.
+
+end note
+
+note top of Agenda
+  RN3: Máximo de un periodo de 3 meses de antelación
+   para una cita asignada por parte de un cliente
+end note
+
+note left of PruebasRealizadas
+  RN1: Si un paciente fallece, que el historial de pruebas
+   se borre después de 2 años debido a políticas de la empresa
+
+end note
 
 @enduml
