@@ -324,7 +324,7 @@ para que los usuarios que tengan incidencias puedan ser atendidos.
 
 ### 5.1. Diagramas de clases UML
 
-<img width="622" height="529" alt="image" src="https://github.com/user-attachments/assets/9ad503cd-6e32-4dcf-9d19-bfcda9437e30" />
+<img width="800" height="650" alt="image" src="https://github.com/user-attachments/assets/9ad503cd-6e32-4dcf-9d19-bfcda9437e30" />
 
 
 ### 5.2. Escenarios de prueba
