@@ -330,8 +330,16 @@ para que los usuarios que tengan incidencias puedan ser atendidos.
 ### 5.2. Escenarios de prueba
 
 ##### Diagrama de Objetos 1
->S
+>
 <img width="1182" height="1444" alt="image" src="https://github.com/user-attachments/assets/553dcd17-c382-4c2e-b414-9e9ff1c0923c" />
+
+##### Diagrama de Objetos 2
+>
+<img width="1153" height="1178" alt="image" src="https://github.com/user-attachments/assets/cc5030eb-a7fc-43c5-896f-80f5eafc888c" />
+
+##### Diagrama de Objetos 3
+>
+<img width="1424" height="1427" alt="image" src="https://github.com/user-attachments/assets/d12b2142-5acf-4c15-8b22-85218737e144" />
 
 
 ## 6. Matrices de trazabilidad
