@@ -329,7 +329,10 @@ para que los usuarios que tengan incidencias puedan ser atendidos.
 
 ### 5.2. Escenarios de prueba
 
-- con descripción textual y diagrama de objetos UML.
+##### Diagrama de Objetos 1
+>S
+<img width="1182" height="1444" alt="image" src="https://github.com/user-attachments/assets/553dcd17-c382-4c2e-b414-9e9ff1c0923c" />
+
 
 ## 6. Matrices de trazabilidad
 
