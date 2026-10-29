@@ -1,0 +1,103 @@
+@startuml
+
+object "Médico" as medico {
+    Nombre = Manuel 
+    Apellidos = González López
+    DNI = 51284251H
+    Domicilio = C/ Poeta Abad 12
+    Email = manuelg.lopez@gmail.com
+    Contraseña = test.123A
+    Fecha Nacimiento = 12/05/1975
+    Cuenta Bancario = ES102928372829
+    NumeroColegiado = ME9787
+    Departamento = Medicina General    
+}
+
+object "Enfermero" as enfermero1 {
+    Nombre = Lucía
+    Apellidos = Fernández Ruiz
+    DNI = 48291034K
+    Domicilio = Avda. de la Constitución 45, 3ºB
+    Email = lucia.fernandez.enfermeria@gmail.com
+    Contraseña = Enfermeria.2024!
+    Fecha Nacimiento = 24/09/1988
+    Cuenta Bancaria = ES8430192847120938475612
+    NumeroColegiado = EN3412
+}
+
+object "Enfermero" as enfermero2 {
+    Nombre = Carlos
+    Apellidos = Morales Prieto
+    DNI = 31928475M
+    Domicilio = C/ Sierpes 19, 2ºA
+    Email = carlos.morales.enfermero@gmail.com
+    Contraseña = Enfermeria.2026?
+    Fecha Nacimiento = 15/03/1991
+    Cuenta Bancaria = ES9121000418459876543210
+    NumeroColegiado = EN5689
+}
+
+object "Paciente" as paciente {
+    Nombre = Carmen
+    Apellidos = Navarro Gómez
+    DNI = 73920145L
+    Domicilio = C/ San Fernando 8, 1ºA
+    Email = carmen.navarro.admin@gmail.com
+    Contraseña = Admin2026.*
+    Fecha Nacimiento = 03/11/1982
+    FechaDefunción = null
+    CompañiaSeguro = Sanitas
+    NumeroPoliza = POL-98234105
+    GrupoSanguineo = A+
+    Peso = 65 kg
+    Estatura = 1.68 m
+    Género = Femenino
+    Alergias = Penicilina
+}
+
+object "Centro" as centro {
+    Nombre = Hospital General SaludUS
+    Localidad = Sevilla
+    Provincia = Sevilla
+}
+
+object "Cita" as cita1 {
+    Fecha = 15/11/2026
+    Hora = 10:30
+    Departamento = Cardiología
+    EstadoCita = Pendiente
+}
+
+object "Ingreso" as ingreso1 {
+    Fecha = 02/11/2026
+    Hora = 08:00
+    DiaHoraAlta = 05/11/2026 12:00
+    Observacion = Paciente en observación tras intervención quirúrgica.
+}
+
+object "EnfermedadesDiagnosticadas" as enfermedad1 {
+    NombreEnfermedad = Diabetes Mellitus Tipo 2
+}
+
+object "PruebasRealizadas" as prueba1 {
+    Nombre = Analítica de Sangre Completa
+    FechaHora = 28/10/2026 09:15
+}
+
+medico "*" -- "*" paciente : EsAtendido
+
+enfermero1 "0..*" -- "*" medico : Apoya
+enfermero2 "0..*" -- "*" medico : Apoya
+
+paciente *-- enfermedad1
+paciente *-- prueba1
+
+centro "*" -- "*" cita1 : SeRealizaEn
+centro "*" -- "*" ingreso1 : SeRealizaEn
+
+enfermero1 "*" -- "*" centro : PerteneceA
+enfermero2 "*" -- "*" centro : PerteneceA
+medico "*" -- "*" centro : PerteneceA
+paciente "*" -- "*" centro : PerteneceA
+
+@enduml
