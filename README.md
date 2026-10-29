@@ -297,7 +297,7 @@ Nos han contactado el grupo de hospitales privados **SanitUS**, debido a su cost
 #### ​​💰​ Reglas de negocio
 
 ##### R.N.01. Eliminación periódica de historiales antiguos
->Si un paciente fallece, que el historial se borre después de 2 años debido a políticas de la empresa
+>Si un paciente fallece, se eliminan los datos de las pruebas realizadas
 
 ##### R.N.02. Número máximo de citas por paciente
 >Solo está permitido que un paciente pueda tener como máximo tres citas agendadas en su perfil.
